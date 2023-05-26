@@ -1,0 +1,31 @@
+/*
+font-family: 'Arvo', serif;
+font-family: 'Flow Circular', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Tsukimi Rounded', sans-serif;
+*/
+
+*{
+    font-family: 'Arvo', serif;
+    margin: 0;
+}
+
+#divHeader{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-image: url("./img/backgroud.png");
+}
+
+#imgMe{
+    margin: 22px 22px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: aquamarine;
+}
+
+#japones{
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
